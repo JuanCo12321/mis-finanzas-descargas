@@ -1,0 +1,38 @@
+# Cada semana resume las tasas de interés de la Superintendencia Financiera en tasas.json,
+# que la app Mis Finanzas lee para proponer la tasa de cada deuda. Solo hace un commit si cambió.
+name: Tasas de interés
+
+on:
+  schedule:
+    # Martes y sábados a las 7:00 de Colombia (12:00 UTC). La Superfinanciera publica cada viernes.
+    - cron: "0 12 * * 2,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tasas
+  cancel-in-progress: false
+
+jobs:
+  tasas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resumir las tasas
+        run: python3 tasas/tasas.py tasas.json
+
+      - name: Guardar si cambiaron
+        run: |
+          git add tasas.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Tasas hasta el $(python3 -c "import json; print(json.load(open('tasas.json'))['hasta'])")"
+          git push
