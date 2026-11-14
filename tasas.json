@@ -1,7 +1,7 @@
 {
  "fuente": "Superintendencia Financiera de Colombia: tasas de interés activas por tipo de crédito (formato 414), en datos.gov.co. Promedio ponderado por monto, personas naturales, E.A. en %.",
- "desde": "2026-10-09",
- "hasta": "2026-10-30",
+ "desde": "2026-10-16",
+ "hasta": "2026-11-06",
  "usura": {
   "bajo_monto": 71.82,
   "desde": "2026-11-01",
@@ -13,13 +13,13 @@
    "id": "1-7",
    "nombre": "Bancolombia",
    "tasas": {
-    "bajo_monto": 59.54,
-    "libranza": 19.86,
-    "libre_inversion": 20.78,
-    "microcredito": 43.38,
-    "rotativo": 26.2,
-    "tarjeta": 27.94,
-    "vehiculo": 18.62,
+    "bajo_monto": 59.97,
+    "libranza": 19.65,
+    "libre_inversion": 21.03,
+    "microcredito": 42.93,
+    "rotativo": 25.68,
+    "tarjeta": 27.89,
+    "vehiculo": 18.69,
     "vivienda": 15.53
    }
   },
@@ -27,232 +27,221 @@
    "id": "1-39",
    "nombre": "Banco Davivienda",
    "tasas": {
-    "bajo_monto": 51.79,
-    "libranza": 20.01,
-    "libre_inversion": 22.64,
-    "rotativo": 27.84,
-    "tarjeta": 25.85,
-    "vehiculo": 19.43,
-    "vivienda": 15.01
+    "bajo_monto": 51.46,
+    "libranza": 19.95,
+    "libre_inversion": 22.54,
+    "rotativo": 27.83,
+    "tarjeta": 25.91,
+    "vehiculo": 19.45,
+    "vivienda": 14.98
    }
   },
   {
    "id": "1-1",
    "nombre": "Banco de Bogotá",
    "tasas": {
-    "bajo_monto": 63.05,
-    "libranza": 18.77,
-    "libre_inversion": 22.86,
-    "rotativo": 26.61,
-    "tarjeta": 25.28,
-    "vehiculo": 20.29,
-    "vivienda": 15.45
+    "bajo_monto": 63.72,
+    "libranza": 18.87,
+    "libre_inversion": 23.04,
+    "rotativo": 26.51,
+    "tarjeta": 25.35,
+    "vehiculo": 20.21,
+    "vivienda": 15.38
    }
   },
   {
    "id": "1-13",
    "nombre": "BBVA Colombia",
    "tasas": {
-    "libranza": 17.15,
-    "libre_inversion": 21.8,
-    "rotativo": 26.79,
-    "tarjeta": 27.29,
-    "vehiculo": 20.63,
-    "vivienda": 14.4
+    "libranza": 17.14,
+    "libre_inversion": 21.86,
+    "rotativo": 26.77,
+    "tarjeta": 27.25,
+    "vehiculo": 20.64,
+    "vivienda": 14.33
    }
   },
   {
    "id": "4-128",
    "nombre": "Nu Colombia",
    "tasas": {
-    "bajo_monto": 48.23,
-    "libre_inversion": 23.93,
-    "tarjeta": 26.94
-   }
-  },
-  {
-   "id": "1-42",
-   "nombre": "Banco Davibank",
-   "tasas": {
-    "libre_inversion": 23.19,
-    "rotativo": 26.81,
-    "tarjeta": 27.49,
-    "vivienda": 15.31
+    "bajo_monto": 48.39,
+    "libre_inversion": 23.95,
+    "tarjeta": 26.92
    }
   },
   {
    "id": "1-56",
    "nombre": "Banco Falabella",
    "tasas": {
-    "bajo_monto": 48.68,
-    "libre_inversion": 23.65,
+    "bajo_monto": 48.47,
+    "libre_inversion": 23.52,
     "tarjeta": 27.4
+   }
+  },
+  {
+   "id": "1-42",
+   "nombre": "Lambda Bank",
+   "tasas": {
+    "libre_inversion": 23.12,
+    "rotativo": 26.81,
+    "tarjeta": 27.44,
+    "vivienda": 15.28
    }
   },
   {
    "id": "1-23",
    "nombre": "Banco de Occidente",
    "tasas": {
-    "libranza": 19.16,
-    "libre_inversion": 20.57,
-    "rotativo": 23.54,
-    "tarjeta": 24.19,
-    "vehiculo": 19.06,
-    "vivienda": 14.45
+    "libranza": 19.27,
+    "libre_inversion": 20.68,
+    "rotativo": 23.61,
+    "tarjeta": 23.64,
+    "vehiculo": 19.03,
+    "vivienda": 14.49
    }
   },
   {
    "id": "1-43",
    "nombre": "Banco Agrario",
    "tasas": {
-    "libranza": 17.31,
-    "libre_inversion": 25.54,
+    "libranza": 17.57,
+    "libre_inversion": 25.36,
     "microcredito": 21.42,
-    "rotativo": 28.02,
-    "tarjeta": 24.03,
-    "vivienda": 14.72
+    "rotativo": 27.99,
+    "tarjeta": 24.01,
+    "vivienda": 14.76
    }
   },
   {
    "id": "1-30",
    "nombre": "Banco Caja Social",
    "tasas": {
-    "libranza": 18.24,
+    "libranza": 18.19,
     "libre_inversion": 23.18,
-    "microcredito": 50.62,
-    "rotativo": 28.02,
-    "tarjeta": 28.0,
-    "vehiculo": 19.34,
-    "vivienda": 14.98
+    "microcredito": 50.85,
+    "rotativo": 27.96,
+    "tarjeta": 27.92,
+    "vehiculo": 19.46,
+    "vivienda": 15.02
    }
   },
   {
    "id": "1-49",
    "nombre": "AV Villas",
    "tasas": {
-    "libranza": 16.91,
-    "libre_inversion": 19.53,
-    "rotativo": 24.35,
-    "tarjeta": 25.56,
-    "vivienda": 14.18
+    "libranza": 16.95,
+    "libre_inversion": 19.39,
+    "rotativo": 24.57,
+    "tarjeta": 25.61,
+    "vivienda": 14.16
    }
   },
   {
    "id": "1-2",
    "nombre": "Banco Popular",
    "tasas": {
-    "libranza": 17.34,
-    "tarjeta": 26.73
+    "libranza": 17.35,
+    "tarjeta": 26.76
    }
   },
   {
    "id": "4-26",
    "nombre": "Tuya",
    "tasas": {
-    "bajo_monto": 60.98,
-    "libre_inversion": 27.14,
-    "tarjeta": 27.66
-   }
-  },
-  {
-   "id": "1-57",
-   "nombre": "Banco Pichincha",
-   "tasas": {
-    "libranza": 15.24
-   }
-  },
-  {
-   "id": "1-59",
-   "nombre": "Banco Santander",
-   "tasas": {
-    "microcredito": 50.8,
-    "vehiculo": 22.38
+    "bajo_monto": 61.9,
+    "libre_inversion": 27.34,
+    "tarjeta": 27.73
    }
   },
   {
    "id": "4-130",
    "nombre": "Nequi",
    "tasas": {
-    "bajo_monto": 43.08,
-    "libre_inversion": 27.2
+    "bajo_monto": 43.12,
+    "libre_inversion": 27.18
+   }
+  },
+  {
+   "id": "1-57",
+   "nombre": "Banco Pichincha",
+   "tasas": {
+    "libranza": 15.27
+   }
+  },
+  {
+   "id": "1-59",
+   "nombre": "Banco Santander",
+   "tasas": {
+    "microcredito": 51.45,
+    "vehiculo": 22.39
    }
   },
   {
    "id": "1-62",
    "nombre": "Mibanco",
    "tasas": {
-    "microcredito": 56.68
-   }
-  },
-  {
-   "id": "1-12",
-   "nombre": "Banco GNB Sudameris",
-   "tasas": {
-    "libranza": 19.45,
-    "libre_inversion": 19.13,
-    "rotativo": 27.12,
-    "tarjeta": 26.51
+    "microcredito": 56.82
    }
   },
   {
    "id": "1-60",
    "nombre": "Banco Mundo Mujer",
    "tasas": {
-    "libre_inversion": 28.26,
-    "microcredito": 54.2
+    "libre_inversion": 28.23,
+    "microcredito": 54.41
+   }
+  },
+  {
+   "id": "1-12",
+   "nombre": "Banco GNB Sudameris",
+   "tasas": {
+    "libranza": 19.48,
+    "libre_inversion": 19.55,
+    "rotativo": 27.07,
+    "tarjeta": 26.46
    }
   },
   {
    "id": "1-55",
    "nombre": "Finandina",
    "tasas": {
-    "libranza": 23.88,
-    "libre_inversion": 28.46,
-    "tarjeta": 27.12,
-    "vehiculo": 22.41
+    "libranza": 23.78,
+    "libre_inversion": 28.39,
+    "tarjeta": 27.34,
+    "vehiculo": 22.4
    }
   },
   {
    "id": "22-8",
    "nombre": "Fondo Nacional del Ahorro",
    "tasas": {
-    "vivienda": 11.89
+    "vivienda": 11.87
    }
   },
   {
    "id": "1-52",
    "nombre": "Bancamía",
    "tasas": {
-    "microcredito": 54.8
+    "microcredito": 54.56
    }
   },
   {
    "id": "1-63",
    "nombre": "Banco Serfinanza",
    "tasas": {
-    "libranza": 24.31,
-    "libre_inversion": 22.73,
-    "rotativo": 22.83,
-    "tarjeta": 27.62
+    "libranza": 24.46,
+    "libre_inversion": 23.11,
+    "rotativo": 22.79,
+    "tarjeta": 27.54
    }
   },
   {
    "id": "1-53",
    "nombre": "Banco W",
    "tasas": {
-    "microcredito": 55.59,
-    "tarjeta": 28.09
-   }
-  },
-  {
-   "id": "1-54",
-   "nombre": "Bancoomeva",
-   "tasas": {
-    "libre_inversion": 23.14,
-    "rotativo": 22.24,
-    "tarjeta": 20.82,
-    "vehiculo": 21.83,
-    "vivienda": 14.89
+    "microcredito": 55.5,
+    "tarjeta": 28.03
    }
   },
   {
@@ -260,39 +249,19 @@
    "nombre": "Lulo Bank",
    "tasas": {
     "libre_inversion": 22.25,
-    "tarjeta": 26.7
+    "tarjeta": 26.54
    }
   },
   {
-   "id": "1-51",
-   "nombre": "Bancien",
+   "id": "1-54",
+   "nombre": "Bancoomeva",
    "tasas": {
-    "libranza": 20.28,
-    "tarjeta": 27.89
-   }
-  },
-  {
-   "id": "1-68",
-   "nombre": "Banco Contactar",
-   "tasas": {
-    "microcredito": 54.0
-   }
-  },
-  {
-   "id": "4-31",
-   "nombre": "GM Financial Colombia",
-   "tasas": {
-    "vehiculo": 23.98
-   }
-  },
-  {
-   "id": "32-2",
-   "nombre": "JFK Cooperativa Financiera",
-   "tasas": {
-    "libranza": 17.15,
-    "libre_inversion": 22.84,
-    "microcredito": 56.57,
-    "tarjeta": 26.52
+    "libranza": 20.8,
+    "libre_inversion": 22.78,
+    "rotativo": 23.15,
+    "tarjeta": 21.56,
+    "vehiculo": 21.7,
+    "vivienda": 14.83
    }
   },
   {
@@ -303,14 +272,46 @@
    }
   },
   {
+   "id": "1-51",
+   "nombre": "Bancien",
+   "tasas": {
+    "libranza": 20.31,
+    "tarjeta": 27.64
+   }
+  },
+  {
+   "id": "4-31",
+   "nombre": "GM Financial Colombia",
+   "tasas": {
+    "vehiculo": 23.94
+   }
+  },
+  {
+   "id": "32-2",
+   "nombre": "JFK Cooperativa Financiera",
+   "tasas": {
+    "libranza": 17.18,
+    "libre_inversion": 22.94,
+    "microcredito": 55.91,
+    "tarjeta": 26.52
+   }
+  },
+  {
+   "id": "1-68",
+   "nombre": "Banco Contactar",
+   "tasas": {
+    "microcredito": 54.19
+   }
+  },
+  {
    "id": "32-5",
    "nombre": "Confiar",
    "tasas": {
-    "libranza": 17.93,
-    "libre_inversion": 18.36,
-    "microcredito": 25.8,
-    "tarjeta": 27.81,
-    "vivienda": 14.68
+    "libranza": 17.94,
+    "libre_inversion": 18.37,
+    "microcredito": 26.01,
+    "tarjeta": 27.8,
+    "vivienda": 14.69
    }
   },
   {
@@ -318,62 +319,62 @@
    "nombre": "Banco Unión",
    "tasas": {
     "libranza": 21.13,
-    "libre_inversion": 21.19,
-    "rotativo": 28.48,
+    "libre_inversion": 22.47,
+    "rotativo": 28.41,
     "tarjeta": 26.67,
-    "vivienda": 17.37
+    "vivienda": 17.44
    }
   },
   {
    "id": "32-4",
    "nombre": "Cotrafa",
    "tasas": {
-    "libranza": 17.32,
-    "libre_inversion": 22.59,
-    "microcredito": 32.01,
-    "rotativo": 28.5,
-    "vivienda": 15.22
-   }
-  },
-  {
-   "id": "4-129",
-   "nombre": "KOA",
-   "tasas": {
-    "libranza": 21.1
+    "libranza": 17.35,
+    "libre_inversion": 22.66,
+    "microcredito": 32.03,
+    "rotativo": 28.47,
+    "vivienda": 15.15
    }
   },
   {
    "id": "4-124",
    "nombre": "Rappipay",
    "tasas": {
-    "libre_inversion": 22.76
+    "libre_inversion": 22.75
+   }
+  },
+  {
+   "id": "4-129",
+   "nombre": "KOA",
+   "tasas": {
+    "libranza": 21.11
    }
   },
   {
    "id": "32-1",
    "nombre": "Cooperativa Financiera de Antioquia",
    "tasas": {
-    "libranza": 24.35,
-    "libre_inversion": 25.07,
-    "microcredito": 36.3,
-    "rotativo": 23.93
-   }
-  },
-  {
-   "id": "4-118",
-   "nombre": "Crezcamos",
-   "tasas": {
-    "libre_inversion": 25.49,
-    "microcredito": 54.36
+    "libranza": 24.28,
+    "libre_inversion": 24.84,
+    "microcredito": 37.16,
+    "rotativo": 23.95
    }
   },
   {
    "id": "4-121",
    "nombre": "Financiera Juriscoop",
    "tasas": {
-    "libranza": 23.5,
-    "libre_inversion": 26.9,
-    "tarjeta": 26.95
+    "libranza": 23.33,
+    "libre_inversion": 26.91,
+    "tarjeta": 27.01
+   }
+  },
+  {
+   "id": "4-118",
+   "nombre": "Crezcamos",
+   "tasas": {
+    "libre_inversion": 25.68,
+    "microcredito": 54.24
    }
   },
   {
@@ -381,37 +382,44 @@
    "nombre": "Coltefinanciera",
    "tasas": {
     "libranza": 20.94,
-    "libre_inversion": 26.47,
-    "tarjeta": 28.48
+    "libre_inversion": 26.17,
+    "tarjeta": 28.39
    }
   },
   {
    "id": "4-127",
    "nombre": "Bold",
    "tasas": {
-    "microcredito": 61.76
+    "microcredito": 61.29
    }
   },
   {
    "id": "4-117",
    "nombre": "Credifamilia",
    "tasas": {
-    "libre_inversion": 24.65,
+    "libre_inversion": 24.56,
     "vivienda": 16.99
+   }
+  },
+  {
+   "id": "22-11",
+   "nombre": "Caja de Vivienda Militar y de Polícia",
+   "tasas": {
+    "libranza": 8.98
    }
   },
   {
    "id": "4-108",
    "nombre": "IRIS",
    "tasas": {
-    "libranza": 18.67
+    "libranza": 18.68
    }
   },
   {
    "id": "4-120",
    "nombre": "La Hipotecaria",
    "tasas": {
-    "libranza": 20.22,
+    "libranza": 20.2,
     "libre_inversion": 24.0
    }
   },
@@ -420,7 +428,7 @@
    "nombre": "Coopcentral",
    "tasas": {
     "libranza": 14.43,
-    "libre_inversion": 14.72,
+    "libre_inversion": 15.01,
     "tarjeta": 20.05
    }
   },
@@ -428,7 +436,7 @@
    "id": "1-6",
    "nombre": "Itaú",
    "tasas": {
-    "tarjeta": 28.55
+    "tarjeta": 28.51
    }
   }
  ]
